@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Forecast</title>
+    <!-- Imagem -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!-- Referência ao arquivo CSS externo -->
+    <link rel="stylesheet" href="metereologia.css">
+</head>
+<body>
+    <nav>
+        <a href="/"><img class="navbar-logo" src="img/favicon.png" /></a>
+        <h1>Weather Forecast</h1>
+        <div class="container">
+            <input type="text" id="city-input" placeholder="Enter the name of the city">
+            <button id="get-weather-btn">Get Forecast</button>
+        </div>
+        
+    </nav>
+    <h2> <div id="nearest-area"></div> </h2>
+
+    <div id="weather-info">
+        <img id="image-weather" class="invisible"/>
+        <div id="current-temperature"></div>
+        <div id="time-description"></div>
+        <div id="country"></div>
+    </div>
+
+    <div id="forecast"></div>
+
+    <!-- Referência ao arquivo JavaScript externo -->
+    <script src="metereologia.js"></script>
+</body>
+</html>

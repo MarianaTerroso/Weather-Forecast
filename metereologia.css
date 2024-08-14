@@ -1,0 +1,153 @@
+/* Estilo geral do corpo */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url('img/background.jpeg');
+    background-size: cover; /* Faz a imagem cobrir toda a área do corpo */
+    background-position: center; /* Centraliza a imagem no corpo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    height: 100vh; /* Garante que o body ocupe toda a altura da página */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+section {
+
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0.5em 1em; /* Adiciona um padding para espaçamento interno */
+    color: white;
+    background-color: #3385bf;
+    box-sizing: border-box; /* Garante que padding não afete a largura */
+    width: 100%;
+    position: sticky;
+    top:0;
+}
+
+.navbar-logo {
+    height: 4em;
+    margin-right: 1em;
+}
+
+
+p{
+    font-size: 20px;
+    color:white;
+}
+
+/* Contêiner para o campo de entrada e o botão */
+.container {
+    display: flex;
+    flex-direction: column; /* Alinha itens verticalmente */
+    align-items: center; /* Centraliza itens horizontalmente */
+}
+
+/* Estilo do botão */
+button {
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #3385bf;
+    border: none;
+    border-radius: 5px;
+}
+
+#city-input{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 15px;
+    width: 100%; 
+    max-width: 180px; 
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    color:white;
+    text-shadow: 
+    -1px -1px 0 #3385bf, /* Sombra para cima e esquerda */
+    1px -1px 0 #3385bf,   /* Sombra para cima e direita */
+    -1px 1px 0 #3385bf,   /* Sombra para baixo e esquerda */
+    1px 1px 0 #3385bf;    /* Sombra para baixo e direita */
+}
+
+h3{
+    font-size: 30px;
+    color:white;
+}
+
+#image-weather{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.invisible{
+    display:none;
+}
+
+#current-temperature {
+color:white;
+text-shadow: 
+    -1px -1px 0 #3385bf, /* Sombra para cima e esquerda */
+    1px -1px 0 #3385bf,   /* Sombra para cima e direita */
+    -1px 1px 0 #3385bf,   /* Sombra para baixo e esquerda */
+    1px 1px 0 #3385bf;    /* Sombra para baixo e direita */
+
+}
+
+#time-description {
+    color:white;
+    text-shadow: 
+    -1px -1px 0 #3385bf, /* Sombra para cima e esquerda */
+    1px -1px 0 #3385bf,   /* Sombra para cima e direita */
+    -1px 1px 0 #3385bf,   /* Sombra para baixo e esquerda */
+    1px 1px 0 #3385bf;    /* Sombra para baixo e direita */
+}
+
+#country {
+    color:white;
+    text-shadow: 
+    -1px -1px 0 #3385bf, /* Sombra para cima e esquerda */
+    1px -1px 0 #3385bf,   /* Sombra para cima e direita */
+    -1px 1px 0 #3385bf,   /* Sombra para baixo e esquerda */
+    1px 1px 0 #3385bf;    /* Sombra para baixo e direita */
+}
+
+#weather-info {
+    font-size: 20px;
+    margin: 5px;
+}
+
+/* Estilo do contêiner de previsão */
+#forecast {
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-day {
+    margin: 15px;
+    padding: 10px;
+    background-color: #3385bf;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
